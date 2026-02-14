@@ -1,0 +1,17 @@
+[tool.poetry]
+name        = "server_analytics"
+version     = "v0.1.0"
+description = "Server Analytics"
+authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
+license     = "Apache 2.0"
+readme      = "README.md"
+homepage    = "https://github.com/owasp-sbot/Server-Analytics"
+repository  = "https://github.com/owasp-sbot/Server-Analytics"
+
+[tool.poetry.dependencies]
+python                         = "^3.12"
+osbot-utils                    = "*"
+
+[build-system]
+requires = ["poetry-core>=1.9.1"]
+build-backend = "poetry.core.masonry.api"
